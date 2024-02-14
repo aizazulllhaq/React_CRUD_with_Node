@@ -1,0 +1,46 @@
+/* Styles for the ToastContainer */
+.Toastify__toast-container {
+    width: 200px; /* Adjust the width as needed */
+    position: fixed;
+    top: 20px; /* Adjust the top position */
+    right: 20px; /* Adjust the right position */
+    z-index: 9999; /* Ensure it appears above other content */
+  }
+  
+  /* Styles for individual toast notifications */
+  .Toastify__toast {
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Styles for success toast notifications */
+  .Toastify__toast--success {
+    background-color: #28a745; /* Green color */
+  }
+  
+  /* Styles for error toast notifications */
+  .Toastify__toast--error {
+    background-color: #dc3545; /* Red color */
+  }
+  
+  /* Hide the tick icon */
+.Toastify__toast-body svg {
+    display: none;
+  }
+  
+  /* Or resize the tick icon
+  .Toastify__toast-body svg {
+    width: 20px; /* Adjust the size as needed */
+    /* height: 20px; */
+  /* }  */
+
+  /* Hide the checkbox icon */
+.Toastify__toast-checkbox {
+    display: none;
+  }
+
+  /* Hide the checkbox icon only for success toast notifications */
+/* .Toastify__toast--success .Toastify__toast-checkbox {
+    display: none;
+  } */
