@@ -42,7 +42,7 @@ export default function Register() {
 
     return (
         <>
-            <h1>Register Now</h1>
+            <h2 style={{fontFamily:"sans-serif"}}>Register Now</h2>
             <div>
                 <Grid container justifyContent="center">
                     <Grid item xs={6}>
